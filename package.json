@@ -2,13 +2,17 @@
   "name": "wepapp1",
   "version": "1.0.0",
   "description": "this is a backend file of an App",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend"
   ],
   "author": "Vishal Roy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
